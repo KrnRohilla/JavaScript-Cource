@@ -121,3 +121,14 @@
 // (A) Remove the first company from the array
 // (B) Remove Uber & Add Ola in its place
 // (C) Add Amazon at the end
+// let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+// console.log(companies);
+// (A) Remove the first company from the array
+// companies.shift();
+// console.log(companies);
+// (B) Remove Uber & Add Ola in its place
+// companies.splice(1,1,"Ola");
+// console.log(companies);
+// (C) Add Amazon at the end
+// companies.push("Amazon");
+// console.log(companies);
