@@ -1,0 +1,32 @@
+#heading{
+    color: black;
+    font-size: 35px;
+    background-color: whitesmoke;
+}
+.heading2{
+    color:bisque;
+    font-size: 30px;
+}
+body{
+    background-color: rgba(160, 158, 158, 0.507);
+}
+p{
+    font-size: 25px;
+    color: white;
+}
+button{
+    background-color: #4CAF50;
+    color: black;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 10px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid transparent;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    text-align: center;
+    background-color: azure;
+}

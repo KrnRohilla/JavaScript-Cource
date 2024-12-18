@@ -88,3 +88,55 @@
 // num.forEach((number) => {
 //   console.log(number * number);
 // });
+
+//* Map Methods in Array
+// Example
+// let arr = [20,40,60];
+//  let newArr = arr.map((value)=>{
+//   return value*2
+//  });
+//  console.log(newArr); 
+
+//* Filter Method in Array
+// Example
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// let newArr = arr.filter((value)=>{
+//   return value % 2 === 0;
+// });
+// console.log(newArr);
+
+//* Reduce
+// Example
+// let arr = [1,2,3,4,5,6,7,8];
+// let newArr = arr.reduce((result, current)=>{
+//   return result + current;
+// });
+// console.log(newArr);
+
+//*Practice-Question 
+// Question-1
+// we are given array of marks of students. filter our of the marks of students that scored 90+.
+// let marks = [57,67,88,91,90,94,96,99];
+// let newArr = marks.filter((value)=>{
+//   return value >= 90;
+// });
+// console.log(newArr);
+
+// Question-2
+// Take a number n as input from user. create an array of number from 1 to n.
+// use the reduce method to calculate sum of all numbers in the array.
+// use the reduce method to calculate product of all numbers in the array.
+// let n = prompt("Enter a number: ");
+// let arr = [];
+// for (let i = 1; i <= n; i++){
+//   arr[i-1] = i;
+// }
+// console.log(arr);
+// let sum = arr.reduce((result, current)=>{
+//   return result + current;
+// });
+// console.log("sum =",sum);
+// let product = arr.reduce((result, current)=>{
+//   return result * current;
+// });
+// console.log("product =",product);
