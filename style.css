@@ -1,4 +1,4 @@
-#heading{
+/* #heading{
     color: black;
     font-size: 35px;
     background-color: whitesmoke;
@@ -32,4 +32,23 @@ button{
 }
 .newClass{
     background-color: beige;
+} */
+/* .box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 1rem;
+    border: 1px solid transparent;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    text-align: center;
+    background-color: burlywood;
+} */
+ .dark{
+    background-color: black;
+    color: white;
+ }
+ .light{
+    background-color: white;
+    color: black;
 }
