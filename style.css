@@ -44,11 +44,77 @@ button{
     text-align: center;
     background-color: burlywood;
 } */
- .dark{
+ /* .dark{
     background-color: black;
     color: white;
  }
  .light{
     background-color: white;
     color: black;
+} */
+ /* *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-image:linear-gradient(#bdc3c7,#2c3e50);
+    text-align: center;
+ }
+ .container{
+    height: 89vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+ }
+ .box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    color: crimson;
+    background-color: transparent;
+ }
+ .btn{
+    height: 5vmin;
+    width: 30vmin;
+    background-color: whitesmoke; 
+    font-size: 20px;
+    color: red;
+    position: relative;
+    top: -1rem;
+    border: none;
 }
+.new-btn{
+    height: 5vmin;
+    width: 30vmin;
+    background-color: whitesmoke; 
+    font-size: 20px;
+    color: red;
+    border: none;
+}
+.msg{
+    font-size: 20px;
+}
+.ri-trophy-line{
+    color: gold;
+    padding: 2px;
+}
+
+.msg-container{
+    height:20vmin;
+}
+.hide{
+    display: none;
+} */
